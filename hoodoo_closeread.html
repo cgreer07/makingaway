@@ -113,10 +113,12 @@ h3 {
 /* Pinned map images */
 
 .cr-section img {
+  max-width: 900px;
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: auto;
   display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 /* Narrative cards */
@@ -254,13 +256,13 @@ h3 {
 <!-- ============================================================ -->
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-focus-on="cr-world-img">
+<div class="trigger new-trigger" data-focus-on="cr-africa_ethnicities-img">
 <section id="african-origins" class="level1 map-step narrative">
 <h1>African Origins</h1>
 <p>The Transatlantic Slave Trade was one of the most significant forced migrations in history.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-world-img" data-pan-to="-20%,-8%" data-scale-by="1.5">
+<div class="trigger new-trigger" data-pan-to="-20%,-8%" data-scale-by="1.5" data-focus-on="cr-africa_ethnicities-img">
 <div class="map-step narrative">
 <p>Zoom into Africa. Talk about preexisting spiritual traditions</p>
 </div>
@@ -268,17 +270,30 @@ h3 {
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
-<div id="cr-world-img" class="sticky">
+<div id="cr-africa_ethnicities-img" class="sticky">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/world.png" class="img-fluid figure-img"></p>
-<figcaption>full map view</figcaption>
+<p><img src="images/africa_ethnicities.png" class="img-fluid figure-img"></p>
+<figcaption>Regional groupings adapted from Michael A. Gomez’s Exchanging Our Country Marks (1998), Figure 1.2.</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
 </div>
+<!-- ============================================================ -->
+<!-- Regional Origins Chart                                        -->
+<!-- ============================================================ -->
+<section id="where-captives-came-from" class="level2 chart-wide">
+<h2 class="anchored" data-anchor-id="where-captives-came-from">Where Captives Came From</h2>
+<p>Some context or description about what this chart shows.</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/29824259/thumbnail" width="100%" alt="chart visualization">
+  </noscript>
+</div>
+</section>
 <!-- ============================================================ -->
 <!-- Section 2: West Africa                                       -->
 <!-- ============================================================ -->

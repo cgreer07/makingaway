@@ -61,10 +61,12 @@ h3 {
 /* Pinned map images */
 
 .cr-section img {
+  max-width: 900px;
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: auto;
   display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 /* Narrative cards */
@@ -209,11 +211,11 @@ Scroll to begin ↓
 
 :::: {.cr-section layout="sidebar-left"}
 
-::: {#cr-world-img}
-![full map view](images/world.png)
+::: {#cr-africa_ethnicities-img}
+![Regional groupings adapted from Michael A. Gomez's Exchanging Our Country Marks (1998), Figure 1.2.](images/africa_ethnicities.png)
 :::
 
-::: {focus-on="cr-world-img" .map-step}
+::: {focus-on="cr-africa_ethnicities-img" .map-step}
 
 # African Origins
 
@@ -221,11 +223,32 @@ The Transatlantic Slave Trade was one of the most significant forced migrations 
 
 :::
 
-::: {focus-on="cr-world-img" .map-step scale-by="1.5" pan-to="-20%,-8%"}
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="1.5" pan-to="-20%,-8%"}
 
 Zoom into Africa. Talk about preexisting spiritual traditions
 
 :::
+
+::::
+
+<!-- ============================================================ -->
+<!-- Regional Origins Chart                                        -->
+<!-- ============================================================ -->
+
+:::: {.chart-wide}
+
+## Where Captives Came From
+
+Some context or description about what this chart shows.
+
+```{=html}
+<div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/29824259/thumbnail" width="100%" alt="chart visualization" />
+  </noscript>
+</div>
+```
 
 ::::
 
