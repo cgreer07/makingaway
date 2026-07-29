@@ -239,7 +239,7 @@ Zoom into Africa. Talk about preexisting spiritual traditions
 
 ## Where Captives Came From
 
-Some context or description about what this chart shows.
+Because historical records are often incomplete, some captive totals in the Intra-American Slave Trade Database are estimated using similar voyages and documented trade patterns. These imputed values help provide a fuller picture of the trade while reminding us that the numbers are estimates rather than exact counts.
 
 ```{=html}
 <div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
