@@ -239,7 +239,7 @@ This is a story about making a way, persevering through every system built to st
 
 ::: {#cr-africa_ethnicities-img}
 ![Regional groupings adapted from Christopher C. Fennell's Crossroads and Cosmologies: Diasporas and Ethnogenesis in the New World (2007), Figure 1.2.](images/africa_ethnicities.png)
-*Note: Shaded regions reflect trade purchase data (SlaveVoyages); markers reflect ethnic homelands (Gomez, 1998).*
+
 :::
 
 ::: {focus-on="cr-africa_ethnicities-img" .map-step}
@@ -305,68 +305,9 @@ Because historical records are often incomplete, some captive totals in the Intr
 
 ::::
 
-<!-- ============================================================ -->
-<!-- Section 2: West Africa                                       -->
-<!-- ============================================================ -->
-
-:::: {.cr-section layout="sidebar-left"}
-
-::: {#cr-west-africa-img}
-![West African countries of origin](images/west_africa.png)
-:::
-
-::: {focus-on="cr-west-africa-img" .map-step}
-
-## West Africa
-
-West African regions contributed people, knowledge, spiritual systems, and cultural traditions that endured through forced migration.
-
-:::
-
-::::
 
 <!-- ============================================================ -->
-<!-- Section 3: West Central Africa                                -->
-<!-- ============================================================ -->
-
-:::: {.cr-section layout="sidebar-left"}
-
-::: {#cr-central-africa-img}
-![West Central African countries of origin](images/central_africa.png)
-:::
-
-::: {focus-on="cr-central-africa-img" .map-step}
-
-## West Central Africa
-
-West Central African cosmologies and cultural traditions became important influences in the development of Hoodoo.
-
-:::
-
-::::
-
-<!-- ============================================================ -->
-<!-- Section 4: East Africa                                        -->
-<!-- ============================================================ -->
-
-:::: {.cr-section layout="sidebar-left"}
-
-::: {#cr-east-africa-img}
-![East African countries of origin](images/east_africa.png)
-:::
-
-::: {focus-on="cr-east-africa-img" .map-step}
-
-## East Africa
-
-Minimal representation from East African countries.
-
-:::
-
-::::
-
-<!-- ============================================================ -->
-<!-- Section 5: Arrival in North America                           -->
+<!-- Arrival in North America                                     -->
 <!-- ============================================================ -->
 
 :::: {.cr-section layout="sidebar-left"}
@@ -379,7 +320,7 @@ Minimal representation from East African countries.
 
 ## Arrival in North America
 
-Captive Africans arrived through numerous documented ports and regions across North America.
+Enslaved Africans arrived through numerous documented ports and regions across North America.
 
 :::
 
