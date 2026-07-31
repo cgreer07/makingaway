@@ -219,7 +219,9 @@ Scroll to begin ↓
 
 ## Welcome
 
-It's no mistake that you have arrived here today. If you're anything like me, you're here because you've already heard the whispers... and now you're curious. For many of us, there is a second coming of age that involves unlearning old worldviews, learning a new perspective, and recontextualizing your identity. So, allow me to introduce you to the often misunderstood tradition called Hoodoo.  
+It's no mistake that you have arrived here today. If you're anything like me, you're here because you've already heard the whispers... and now you're curious. 
+
+For many of us, there is a second coming of age that involves unlearning old worldviews, learning a new perspective, and recontextualizing your identity. So, allow me to introduce you to the often misunderstood tradition called Hoodoo.  
 
 Hoodoo, also known as "conjure," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is heavily influenced by West and West Central African religions, Native American herb and healing traditions, as well as European influences and Christianity. 
 
@@ -233,7 +235,7 @@ This is a story about making a way, persevering through every system built to st
 <!-- Continental overview                                         -->
 <!-- ============================================================ -->
 
-:::: {.cr-section layout="sidebar-left"}
+:::: {.cr-section .page-section layout="sidebar-left"}
 
 ::: {#cr-africa_ethnicities-img}
 ![Regional groupings adapted from Michael A. Gomez's Exchanging Our Country Marks (1998), Figure 1.2.](images/africa_ethnicities.png)
@@ -243,13 +245,38 @@ This is a story about making a way, persevering through every system built to st
 
 # African Origins
 
-Before the Transatlantic Slave Trade was one of the most significant forced migrations in history.
+The people forced across the Atlantic came from dozens of distinct ethnic groups — each with its own language, cosmology, and way of understanding the sacred.
+:::
+
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="30%,20%"}
+
+## Yoruba
+
+Among West Africa's many peoples, the Yoruba stand out as one of the most significant influences on what would become Hoodoo — their systems of divination, herbal knowledge, and reverence for spirit carried directly into Black American spiritual practice.
 
 :::
 
-::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="1.5" pan-to="-20%,-8%"}
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="-25%,-25%"}
 
-Zoom into Africa. Talk about preexisting spiritual traditions
+## Kongo-Angola
+
+The Kongo-Angolan people of West Central Africa left an equally deep mark. The Kongo cosmogram — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.
+
+:::
+
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="65%,45%"}
+
+## Bambara
+
+The Bambara of Senegambia held a spiritual worldview built on intimacy between the earth, the spirit world, and human beings. They were especially noted for their use of amulets and charms — objects of intercession and divination that carried protective and revealing power.
+
+:::
+
+::: {focus-on="cr-africa_ethnicities-img" .map-step}
+
+## Shared Foundations
+
+Every ethnic group carried its own distinct traditions — yet across the continent, certain spiritual foundations recur. The Akan (4) and the Igbo (7), for example, both hold a deep reverence for earth mothers, a belief that unites people to land and to ancestors in the same breath.
 
 :::
 
