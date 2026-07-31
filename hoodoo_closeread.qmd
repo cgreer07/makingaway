@@ -190,6 +190,10 @@ h3 {
   line-height: 1;
   cursor: pointer;
 }
+
+.page-section {
+  padding-block: 4rem;
+}
 </style>
 ```
 
@@ -199,14 +203,34 @@ h3 {
 
 ## Understanding the Development of Hoodoo Cultural Traditions in the United States
 
+
 A visual journey through the African regions, forced migrations, and cultural traditions that shaped Hoodoo in North America.
+
 
 Scroll to begin ↓
 
 :::
 
 <!-- ============================================================ -->
-<!-- Section 1: Continental overview                              -->
+<!-- Introduction                                                 -->
+<!-- ============================================================ -->
+
+:::: {.page-section}
+
+## Welcome
+
+It's no mistake that you have arrived here today. If you're anything like me, you're here because you've already heard the whispers... and now you're curious. For many of us, there is a second coming of age that involves unlearning old worldviews, learning a new perspective, and recontextualizing your identity. So, allow me to introduce you to the often misunderstood tradition called Hoodoo.  
+
+Hoodoo, also known as "conjure," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is heavily influenced by West and West Central African religions, Native American herb and healing traditions, as well as European influences and Christianity. 
+
+It isn't a religion in an institutional sense, but it is a system of practical knowledge passed down and adapted across generations.
+
+This is a story about making a way, persevering through every system built to strip away autonomy, agency, and expression, and building a culture that survived anyway.
+
+::::
+
+<!-- ============================================================ -->
+<!-- Continental overview                                         -->
 <!-- ============================================================ -->
 
 :::: {.cr-section layout="sidebar-left"}
@@ -219,7 +243,7 @@ Scroll to begin ↓
 
 # African Origins
 
-The Transatlantic Slave Trade was one of the most significant forced migrations in history.
+Before the Transatlantic Slave Trade was one of the most significant forced migrations in history.
 
 :::
 
@@ -235,11 +259,12 @@ Zoom into Africa. Talk about preexisting spiritual traditions
 <!-- Regional Origins Chart                                        -->
 <!-- ============================================================ -->
 
-:::: {.chart-wide}
+:::: {.chart-wide .page-section}
 
 ## Where Captives Came From
 
 Because historical records are often incomplete, some captive totals in the Intra-American Slave Trade Database are estimated using similar voyages and documented trade patterns. These imputed values help provide a fuller picture of the trade while reminding us that the numbers are estimates rather than exact counts.
+
 
 ```{=html}
 <div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
@@ -319,7 +344,7 @@ Minimal representation from East African countries.
 :::: {.cr-section layout="sidebar-left"}
 
 ::: {#cr-north-america-img}
-![Documented ports and regions of arrival in North America](images/north_america.png)
+![Documented regions of arrival in North America](images/north_america.png)
 :::
 
 ::: {focus-on="cr-north-america-img" .map-step}
@@ -336,6 +361,7 @@ Captive Africans arrived through numerous documented ports and regions across No
 <!-- Sankey Diagram                                                -->
 <!-- ============================================================ -->
 
+:::: {.page-section}
 ## Migration Flows
 
 A description of what this Sankey diagram shows can go here.
@@ -348,12 +374,13 @@ A description of what this Sankey diagram shows can go here.
   </noscript>
 </div>
 ```
+::::
 
 <!-- ============================================================ -->
 <!-- Timeline                                                      -->
 <!-- ============================================================ -->
 
-:::: {.timeline-section}
+:::: {.timeline-section }
 
 ## The Evolution of Hoodoo
 
@@ -380,7 +407,7 @@ A full timeline from African spiritual foundations through the present day.
 <!-- Section 6: Hoodoo cultural clusters                           -->
 <!-- ============================================================ -->
 
-:::: {.cr-section layout="sidebar-left"}
+:::: {.cr-section .page-section layout="sidebar-left"}
 
 ::: {#cr-hoodoo-clusters-img}
 ![Hoodoo cultural clusters across the American South](images/hoodoo_clusters.png)
@@ -389,6 +416,11 @@ A full timeline from African spiritual foundations through the present day.
 ::: {focus-on="cr-hoodoo-clusters-img" .map-step}
 
 ## Regional Hoodoo Clusters
+
+By the early 19th century, three distinct Hoodoo clusters developed in the south.
+:::
+
+::: {focus-on="cr-hoodoo-clusters-img" .map-step}
 
 Out of these regions and passages, Hoodoo traditions took root and endured across the American South.
 
@@ -400,7 +432,7 @@ Out of these regions and passages, Hoodoo traditions took root and endured acros
 <!-- Line Chart                                                    -->
 <!-- ============================================================ -->
 
-:::: {.chart-section}
+:::: {.chart-section .page-section}
 
 
 ```{=html}
@@ -418,6 +450,7 @@ Out of these regions and passages, Hoodoo traditions took root and endured acros
 <!-- Practices and Beliefs — Network Diagram                      -->
 <!-- ============================================================ -->
 
+:::: {.page-section}
 ## Practices and Beliefs
 
 Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, prayer, and herbal healing weave together into a connected system of practice.
@@ -430,3 +463,4 @@ Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion
   </noscript>
 </div>
 ```
+::::
