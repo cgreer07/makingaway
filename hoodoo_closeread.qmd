@@ -238,7 +238,8 @@ This is a story about making a way, persevering through every system built to st
 :::: {.cr-section .page-section layout="sidebar-left"}
 
 ::: {#cr-africa_ethnicities-img}
-![Regional groupings adapted from Michael A. Gomez's Exchanging Our Country Marks (1998), Figure 1.2.](images/africa_ethnicities.png)
+![Regional groupings adapted from Christopher C. Fennell's Crossroads and Cosmologies: Diasporas and Ethnogenesis in the New World (2007), Figure 1.2.](images/africa_ethnicities.png)
+*Note: Shaded regions reflect trade purchase data (SlaveVoyages); markers reflect ethnic homelands (Gomez, 1998).*
 :::
 
 ::: {focus-on="cr-africa_ethnicities-img" .map-step}
