@@ -293,6 +293,8 @@ Every ethnic group carried its own distinct traditions — yet across the contin
 
 The import of particular ethnic groups varied over time. This was largely due to slaveholder preferences and local ecology. For example, it is theorized that planters in South Carolina preferred Africans from the Windward Coast (Sierra Leone) and Senegambia because of their knowledge of rice cultivation. Rice became a principal crop in the region, and after 1700, the Carolina colony increasingly acquired direct shipments of these particular ethnic groups from Africa.
 
+These patterns shaped more than the fields. The same climate and crops that made a region valuable for a particular agricultural skill also determined what plants were available for healing and ritual, how time was marked by planting and harvest seasons, and even how people dressed. And where one or two ethnic groups came to dominate a region during a given period — even as traditions melded across groups — their particular practices left a deeper imprint on what would take root locally as Hoodoo.
+
 
 ```{=html}
 <div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
@@ -305,35 +307,16 @@ The import of particular ethnic groups varied over time. This was largely due to
 
 ::::
 
-
-<!-- ============================================================ -->
-<!-- Arrival in North America                                     -->
-<!-- ============================================================ -->
-
-:::: {.cr-section layout="sidebar-left"}
-
-::: {#cr-north-america-img}
-![Documented regions of arrival in North America](images/north_america.png)
-:::
-
-::: {focus-on="cr-north-america-img" .map-step}
-
-## Arrival in North America
-
-Enslaved Africans arrived through numerous documented ports and regions across North America.
-
-:::
-
-::::
-
 <!-- ============================================================ -->
 <!-- Sankey Diagram                                                -->
 <!-- ============================================================ -->
 
 :::: {.page-section}
-## Migration Flows
+## Tracing Documented Connections Across the Atlantic
 
-A description of what this Sankey diagram shows can go here.
+Each line in this diagram traces a documented route — a specific African region connected to a specific American colony. West Central Africa and St. Helena formed the largest recorded source region, while South Carolina and Virginia received the greatest number of documented captives.
+
+These routes were not evenly distributed. Colonies drew disproportionately from different African regions, shaped by the same forces already at work — the crops a colony grew, the skills its planters sought, the ports it traded through most often. The result was not one uniform culture taking root in North America, but many regional variations, each shaped by which African peoples arrived there in the greatest numbers, and what knowledge they carried with them.
 
 ```{=html}
 <div class="flourish-embed flourish-sankey" data-src="visualisation/29490123">
@@ -344,6 +327,70 @@ A description of what this Sankey diagram shows can go here.
 </div>
 ```
 ::::
+
+
+<!-- ============================================================ -->
+<!--Hoodoo cultural clusters                                      -->
+<!-- ============================================================ -->
+
+:::: {.cr-section .page-section layout="sidebar-left"}
+
+::: {#cr-hoodoo-clusters-img}
+![Regional Hoodoo clusters by the early 19th century](images/hoodoo_clusters.png)
+:::
+
+::: {focus-on="cr-hoodoo-clusters-img" .map-step}
+
+## Regional Traditions Take Shape
+
+By the early 19th century, Hoodoo had taken on distinct regional characteristics. Climate, crop ecology, the structure of the local slave economy, and the size and density of plantation communities all shaped which traditions took deepest root — as did the particular skills colonists sought in the people they enslaved. Interaction with Native American and European folk and religious traditions left their own mark as well.
+
+:::
+
+::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="-65%,30%"}
+
+## Northeast
+
+**States:** Maryland, Virginia, North Carolina, Tenneessee
+<br>
+**Crops:** Tobacco, Corn, Wheat
+<br>
+**Notable influences:** Akan people, captives from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola
+<br>
+**Significance:** Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and leafy plant harvesting. 
+
+:::
+
+::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="-65%,-30%"}
+
+## Southeast
+
+**States:** South Carolina, Georgia, Florida
+<br>
+**Crops:** Rice, Indigo
+<br>
+**Notable influences:** Sierra Leone, Kongo-Angola, Igbo people (Nigeria)
+<br>
+**Significance:** While multiple African ethnic groups shaped this region, Central West African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.
+
+:::
+
+::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="15%,-5%"}
+
+## Southwest
+
+**States:** Missouri, Texas, Louisiana, Mississippi, Alabama
+<br>
+**Crops:** Cotton, Sugarcane
+<br>
+**Notable influences:** Senegambian Mande speakers (Bambara), Yoruba, Fon, Ewe speakers (modern-day Nigeria, Benin, Ghana, and Togo), Kongo-Angola-Zaire
+<br>
+**Significance:** Represents the inland and Gulf expansion of Hoodoo. The Bambara people were so numerous in Louisiana that their contributions to the development of Hoodoo left a widely recognized cultural legacy.
+
+:::
+
+::::
+
 
 <!-- ============================================================ -->
 <!-- Timeline                                                      -->
@@ -371,31 +418,6 @@ A full timeline from African spiritual foundations through the present day.
   <span class="lightbox-close">&times;</span>
 </div>
 ```
-
-<!-- ============================================================ -->
-<!-- Section 6: Hoodoo cultural clusters                           -->
-<!-- ============================================================ -->
-
-:::: {.cr-section .page-section layout="sidebar-left"}
-
-::: {#cr-hoodoo-clusters-img}
-![Hoodoo cultural clusters across the American South](images/hoodoo_clusters.png)
-:::
-
-::: {focus-on="cr-hoodoo-clusters-img" .map-step}
-
-## Regional Hoodoo Clusters
-
-By the early 19th century, three distinct Hoodoo clusters developed in the south.
-:::
-
-::: {focus-on="cr-hoodoo-clusters-img" .map-step}
-
-Out of these regions and passages, Hoodoo traditions took root and endured across the American South.
-
-:::
-
-::::
 
 <!-- ============================================================ -->
 <!-- Line Chart                                                    -->
