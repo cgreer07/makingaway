@@ -178,7 +178,7 @@ h3 {
 
 .timeline-section {
   width: 100vw;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 4rem auto;
   padding: 0 2rem;
   position: relative;
@@ -237,6 +237,15 @@ h3 {
 
 .page-section {
   padding-block: 4rem;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content p {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 ```
@@ -373,9 +382,12 @@ These routes were not evenly distributed. Colonies drew disproportionately from 
 </div>
 ```
 
-## Black Belt Hoodoo: Developing traditions in the American South
+<br>
+
+## Black Belt Hoodoo: Developing Traditions in the American South
 
 The continued influx of newly enslaved Africans ensured that Hoodoo would evolve with each new arrival. Before the rise of cotton in 1807, there were more distinct regional and African ethnic differences in the daily lives of the enslaved.
+
 ::::
 
 
@@ -450,7 +462,13 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 
 ## The Evolution of Hoodoo
 
-A full timeline from African spiritual foundations through the present day.
+The development of Hoodoo was by no means a straightforward process. It was ever evolving under the conditions of chattel slavery in the New World. Its presence was secretive and oftentimes invisible. It began with the fragmentation and breakdown of West African religious systems, otherwise known as "the death of the Gods." What happened thereafter depended upon the bondsmen's ability to preserve and pass down sacred knowledge.
+
+Running concurrently with the disruption of traditional spiritual continuity was interethnic assimilation among captive Africans and an openness to integrating external beliefs and practices, along with substituting ritual items. Eventually, cotton production would reign supreme across the South. This would modify the material culture across the black belt, causing the lives of the enslaved to become more similar and leading to the homogenization of the three regional Hoodoo traditions.
+
+Below is a timeline highlighting some of the major factors that contributed to the development of Hoodoo in America. While it is not all-encompassing, it provides a general overview of how Hoodoo evolved over time within its broader historical context.
+
+<br>
 
 ```{=html}
 <img src="images/capstone_timeline.png"
@@ -475,6 +493,11 @@ A full timeline from African spiritual foundations through the present day.
 
 :::: {.chart-section .page-section}
 
+## As the Black Population Grew, Hoodoo Traditions Endured
+
+Between 1740 and 1780, nearly half of all Africans arriving in America during the slave trade entered during this period. They joined African-descended communities that had already existed within the three regional Hoodoo clusters for nearly a century, bringing new spiritual, medicinal, and cultural knowledge into traditions already taking shape. As the Black population grew from approximately 757,208 in 1790 to 9.8 million in 1910, these traditions were preserved, blended, and carried forward across communities and generations.
+
+<br>
 
 ```{=html}
 <div class="flourish-embed flourish-chart" data-src="visualisation/29788009">
@@ -492,9 +515,11 @@ A full timeline from African spiritual foundations through the present day.
 <!-- ============================================================ -->
 
 :::: {.page-section}
-## Practices and Beliefs
+## The Ritual Network
 
 Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, prayer, and herbal healing weave together into a connected system of practice.
+
+Hover over a circle to learn more about each practice.
 
 ```{=html}
 <div class="flourish-embed flourish-network" data-src="visualisation/29797299">
