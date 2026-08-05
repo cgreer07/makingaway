@@ -271,6 +271,77 @@ h3 {
   margin: 0 auto 1.5rem;
   border-radius: 8px;
 }
+
+.resources-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.resources-section h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.resources-section ul {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+  padding-left: 1.2rem;
+}
+.resources-section li {
+  margin-bottom: 0.5rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: var(--paper-transparent);
+  color: var(--ink);
+  border: 1px solid rgba(29, 33, 41, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 500;
+}
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+@media (max-width: 700px) {
+  .back-to-top {
+    bottom: 1.25rem;
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+  }
+}
+
+.scroll-progress-track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: rgba(29, 33, 41, 0.08);
+  z-index: 2000;
+}
+.scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--ink);
+  transition: width 0.1s ease-out;
+}
 </style>
 ```
 
@@ -287,6 +358,20 @@ A visual journey through the African regions, forced migrations, and cultural tr
 Scroll to begin ↓
 
 :::
+
+```{=html}
+<div class="scroll-progress-track">
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+</div>
+<script>
+window.addEventListener('scroll', function() {
+  var scrollTop = window.scrollY;
+  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  document.getElementById('scroll-progress-bar').style.width = progress + '%';
+});
+</script>
+```
 
 <!-- ============================================================ -->
 <!-- Introduction                                                 -->
@@ -582,3 +667,62 @@ Hover over a circle to learn more about each practice.
 ```
 
 ::::
+
+<!-- ============================================================ -->
+<!-- Resources                                                     -->
+<!-- ============================================================ -->
+
+:::: {.page-section .resources-section}
+## Resources
+
+### Sources & Citations
+
+<br>
+
+**Books**
+
+Bae, J. (2024). The book of Juju: Africana spirituality for healing, liberation, and self-discovery. Sterling Ethos.
+
+Chireau, Y. P. (2003). Black magic: Religion and the African American conjuring tradition. University of California Press.
+
+Fennell, C. C. (2007). Crossroads and cosmologies: Diasporas and ethnogenesis in the New World. University Press of Florida.
+
+Gates, H. L., & Tatar, M. (2018). The annotated African American folktales. (First edition). Liveright Publishing Corporation, a division of W. W. Norton & Company.
+
+Gomez, M. A. (1998). Exchanging our country marks: The transformation of African identities in the colonial and antebellum South. University of North Carolina Press.
+
+Hamilton, V. (1985). The people could fly: American Black folktales (L. Dillon & D. Dillon, Illus.). Knopf.
+
+Lee, M. E. (2017). Working the roots: Over 400 years of traditional African American healing. Wadastick.
+
+VanDyke, L. (2022). African American herbalism: A practical guide to healing plants and folk traditions. Ulysses Press.
+
+<br>
+
+**Articles**
+
+Hurston, Z. (1931). Hoodoo in America. Journal of American Folklore, 44(174), 317. https://doi.org/10.2307/535394
+
+
+### Data Credits
+
+- Regional groupings map adapted from Gomez, *Exchanging Our Country Marks* (1998), Figure 1.2.
+- Data visualizations created with [Flourish](https://flourish.studio).
+- [Add any additional map/image credits]
+::::
+
+```{=html}
+<button id="back-to-top" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+  <span aria-hidden="true">↑</span> Back to top
+</button>
+<script>
+window.addEventListener('scroll', function() {
+  var btn = document.getElementById('back-to-top');
+  if (window.scrollY > 800) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
+  }
+});
+</script>
+```
