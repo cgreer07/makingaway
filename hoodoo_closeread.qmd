@@ -247,6 +247,22 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.pull-quote {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border: none;
+  border-top: 1px solid rgba(29, 33, 41, 0.25);
+  border-bottom: 1px solid rgba(29, 33, 41, 0.25);
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(1.75rem, 3.2vw, 2.75rem);
+  line-height: 1.35;
+  text-align: center;
+  color: var(--ink);
+}
 </style>
 ```
 
@@ -433,7 +449,7 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 <br>
 **Notable influences:** Sierra Leone, Kongo-Angola, Igbo people (Nigeria)
 <br>
-**Significance:** While multiple African ethnic groups shaped this region, Central West African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.
+**Significance:** While multiple African ethnic groups shaped this region, West Central African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.
 
 :::
 
@@ -517,9 +533,20 @@ Between 1740 and 1780, nearly half of all Africans arriving in America during th
 :::: {.page-section}
 ## The Ritual Network
 
-Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, prayer, and herbal healing weave together into a connected system of practice. 
+Spiritual control, community regulation, protection from harm, the attraction of good fortune, and herbal healing all shaped the role of Hoodoo within enslaved communities.
 
-Hover over a circle to learn more about each practice.
+To understand how Hoodoo functioned as a spiritual practice, it is important to understand the belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview influenced many of the practices that later developed within Hoodoo.
+
+In Yoruba religion, for example, orishas are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.
+
+Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred Ring Shout or during divination rituals. 
+
+```{=html}
+<blockquote class="pull-quote">
+The African priest, who would evolve into the plantation conjurer, and later the plantation's black preacher possessed with spiritual power in the Shout.
+</blockquote>
+```
+
 
 ```{=html}
 <div class="flourish-embed flourish-network" data-src="visualisation/29797299">
