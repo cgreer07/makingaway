@@ -480,7 +480,7 @@ Each line in this diagram traces a documented route — a specific African regio
 
 These routes were not evenly distributed. Colonies drew disproportionately from different African regions, shaped by the same forces already at work — the crops a colony grew, the skills its planters sought, the ports it traded through most often. The result was not one uniform culture taking root in North America, but many regional variations, each shaped by which African peoples arrived there in the greatest numbers, and what knowledge they carried with them.
 
-**Hover** over a line to see how many captives were transferred between regions.
+Hover over a line to see how many captives were transferred between regions.
 
 ```{=html}
 <div class="flourish-embed flourish-sankey" data-src="visualisation/29490123">
@@ -571,6 +571,7 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 
 Between 1740 and 1780, nearly half of all Africans arriving in America during the slave trade entered during this period. They joined African-descended communities that had already existed within the three regional Hoodoo clusters for nearly a century, bringing new spiritual, medicinal, and cultural knowledge into traditions already taking shape. As the Black population grew from approximately 757,208 in 1790 to 9.8 million in 1910, these traditions were preserved, blended, and carried forward across communities and generations.
 
+Hover over a point to learn the population total for a particular decade.
 <br>
 
 ```{=html}
