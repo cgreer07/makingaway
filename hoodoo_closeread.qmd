@@ -250,7 +250,7 @@ h3 {
 
 .pull-quote {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 0 auto;
   padding: 2rem;
   border: none;
   border-top: 1px solid rgba(29, 33, 41, 0.25);
@@ -262,6 +262,14 @@ h3 {
   line-height: 1.35;
   text-align: center;
   color: var(--ink);
+}
+
+.pull-quote-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
 }
 </style>
 ```
@@ -435,8 +443,7 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 <br>
 **Notable influences:** Akan people, captives from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola
 <br>
-**Significance:** Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and leafy plant harvesting. 
-
+**Significance:** Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and harvesting leafy plants. Ironworking was an honored craft among the Bakongo people, as they believed it involved applying mystical powers to transform materials. The Yoruba placed great emphasis on the use of iron materials in religious objects. In hoodoo, special skill sets such as this would influence status within the community just as they would in African traditional religions.
 :::
 
 ::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="-65%,-30%"}
@@ -469,6 +476,38 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 
 ::::
 
+<!-- ============================================================ -->
+<!-- Line Chart                                                    -->
+<!-- ============================================================ -->
+
+:::: {.chart-section .page-section}
+
+## As the Black Population Grew, Hoodoo Traditions Endured
+
+Between 1740 and 1780, nearly half of all Africans arriving in America during the slave trade entered during this period. They joined African-descended communities that had already existed within the three regional Hoodoo clusters for nearly a century, bringing new spiritual, medicinal, and cultural knowledge into traditions already taking shape. As the Black population grew from approximately 757,208 in 1790 to 9.8 million in 1910, these traditions were preserved, blended, and carried forward across communities and generations.
+
+<br>
+
+```{=html}
+<div class="flourish-embed flourish-chart" data-src="visualisation/29788009">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/29788009/thumbnail" width="100%" alt="chart visualization" />
+  </noscript>
+</div>
+```
+
+::::
+
+::::{.page-section}
+
+```{=html}
+<blockquote class="pull-quote">
+"The African priest, who would evolve into the plantation conjurer, and later the plantation's black preacher possessed with spiritual power in the Shout."
+</blockquote>
+```
+
+::::
 
 <!-- ============================================================ -->
 <!-- Timeline                                                      -->
@@ -503,28 +542,7 @@ Below is a timeline highlighting some of the major factors that contributed to t
 </div>
 ```
 
-<!-- ============================================================ -->
-<!-- Line Chart                                                    -->
-<!-- ============================================================ -->
 
-:::: {.chart-section .page-section}
-
-## As the Black Population Grew, Hoodoo Traditions Endured
-
-Between 1740 and 1780, nearly half of all Africans arriving in America during the slave trade entered during this period. They joined African-descended communities that had already existed within the three regional Hoodoo clusters for nearly a century, bringing new spiritual, medicinal, and cultural knowledge into traditions already taking shape. As the Black population grew from approximately 757,208 in 1790 to 9.8 million in 1910, these traditions were preserved, blended, and carried forward across communities and generations.
-
-<br>
-
-```{=html}
-<div class="flourish-embed flourish-chart" data-src="visualisation/29788009">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/29788009/thumbnail" width="100%" alt="chart visualization" />
-  </noscript>
-</div>
-```
-
-::::
 
 <!-- ============================================================ -->
 <!-- Practices and Beliefs — Network Diagram                      -->
@@ -535,17 +553,13 @@ Between 1740 and 1780, nearly half of all Africans arriving in America during th
 
 Spiritual control, community regulation, protection from harm, the attraction of good fortune, and herbal healing all shaped the role of Hoodoo within enslaved communities.
 
-To understand how Hoodoo functioned as a spiritual practice, it is important to understand the belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview influenced many of the practices that later developed within Hoodoo.
+That spiritual practice grew out of belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview shaped many of the practices that later developed within Hoodoo.
 
 In Yoruba religion, for example, orishas are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.
 
 Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred Ring Shout or during divination rituals. 
 
-```{=html}
-<blockquote class="pull-quote">
-The African priest, who would evolve into the plantation conjurer, and later the plantation's black preacher possessed with spiritual power in the Shout.
-</blockquote>
-```
+Hover over a circle to learn more about each practice.
 
 
 ```{=html}
@@ -556,4 +570,15 @@ The African priest, who would evolve into the plantation conjurer, and later the
   </noscript>
 </div>
 ```
+::::
+
+
+:::: {.page-section}
+
+```{=html}
+<blockquote class="pull-quote">
+  <img src="images/dikenga.png" alt="description" class="pull-quote-img">
+</blockquote>
+```
+
 ::::
