@@ -323,6 +323,77 @@ h3 {
   margin: 0 auto 1.5rem;
   border-radius: 8px;
 }
+
+.resources-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.resources-section h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.resources-section ul {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+  padding-left: 1.2rem;
+}
+.resources-section li {
+  margin-bottom: 0.5rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: var(--paper-transparent);
+  color: var(--ink);
+  border: 1px solid rgba(29, 33, 41, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 500;
+}
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+@media (max-width: 700px) {
+  .back-to-top {
+    bottom: 1.25rem;
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+  }
+}
+
+.scroll-progress-track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: rgba(29, 33, 41, 0.08);
+  z-index: 2000;
+}
+.scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--ink);
+  transition: width 0.1s ease-out;
+}
 </style>
 <section id="making-a-way" class="level1 hero">
 <h1>Making A Way</h1>
@@ -332,6 +403,17 @@ h3 {
 <p>Scroll to begin ↓</p>
 </section>
 </section>
+<div class="scroll-progress-track">
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+</div>
+<script>
+window.addEventListener('scroll', function() {
+  var scrollTop = window.scrollY;
+  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  document.getElementById('scroll-progress-bar').style.width = progress + '%';
+});
+</script>
 <!-- ============================================================ -->
 <!-- Introduction                                                 -->
 <!-- ============================================================ -->
@@ -354,19 +436,19 @@ h3 {
 <p>The people forced across the Atlantic came from dozens of distinct ethnic groups — each with its own language, cosmology, and way of understanding the sacred.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-africa_ethnicities-img" data-scale-by="3" data-pan-to="30%,20%">
+<div class="trigger new-trigger" data-scale-by="3" data-pan-to="30%,20%" data-focus-on="cr-africa_ethnicities-img">
 <section id="yoruba" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="yoruba">Yoruba</h2>
 <p>Among West Africa’s many peoples, the Yoruba (5) stand out as one of the most significant influences on what would become Hoodoo — their systems of divination, herbal knowledge, and reverence for spirit carried directly into Black American spiritual practice.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-africa_ethnicities-img" data-scale-by="3" data-pan-to="-25%,-25%">
+<div class="trigger new-trigger" data-scale-by="3" data-pan-to="-25%,-25%" data-focus-on="cr-africa_ethnicities-img">
 <section id="kongo-angola" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="kongo-angola">Kongo-Angola</h2>
 <p>The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The Kongo cosmogram — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-africa_ethnicities-img" data-scale-by="3" data-pan-to="65%,45%">
+<div class="trigger new-trigger" data-scale-by="3" data-pan-to="65%,45%" data-focus-on="cr-africa_ethnicities-img">
 <section id="bambara" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="bambara">Bambara</h2>
 <p>The Bambara of Senegambia (1) held a spiritual worldview built on intimacy between the earth, the spirit world, and human beings. They were especially noted for their use of amulets and charms — objects of intercession and divination that carried protective and revealing power.</p>
@@ -439,19 +521,19 @@ h3 {
 <p>By the early 19th century, Hoodoo had taken on distinct regional characteristics. Climate, crop ecology, the structure of the local slave economy, and the size and density of plantation communities all shaped which traditions took deepest root — as did the particular skills colonists sought in the people they enslaved. Interaction with Native American and European folk and religious traditions left their own mark as well.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-hoodoo-clusters-img" data-scale-by="2" data-pan-to="-65%,30%">
+<div class="trigger new-trigger" data-scale-by="2" data-pan-to="-65%,30%" data-focus-on="cr-hoodoo-clusters-img">
 <section id="northeast" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="northeast">Northeast</h2>
 <p><strong>States:</strong> Maryland, Virginia, North Carolina, Tenneessee <br> <strong>Crops:</strong> Tobacco, Corn, Wheat <br> <strong>Notable influences:</strong> Akan people, captives from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola <br> <strong>Significance:</strong> Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and harvesting leafy plants. Ironworking was an honored craft among the Bakongo people, as they believed it involved applying mystical powers to transform materials. The Yoruba placed great emphasis on the use of iron materials in religious objects. In hoodoo, special skill sets such as this would influence status within the community just as they would in African traditional religions.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-hoodoo-clusters-img" data-scale-by="2" data-pan-to="-65%,-30%">
+<div class="trigger new-trigger" data-scale-by="2" data-pan-to="-65%,-30%" data-focus-on="cr-hoodoo-clusters-img">
 <section id="southeast" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="southeast">Southeast</h2>
 <p><strong>States:</strong> South Carolina, Georgia, Florida <br> <strong>Crops:</strong> Rice, Indigo <br> <strong>Notable influences:</strong> Sierra Leone, Kongo-Angola, Igbo people (Nigeria) <br> <strong>Significance:</strong> While multiple African ethnic groups shaped this region, West Central African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.</p>
 </section>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-hoodoo-clusters-img" data-scale-by="2" data-pan-to="15%,-5%">
+<div class="trigger new-trigger" data-scale-by="2" data-pan-to="15%,-5%" data-focus-on="cr-hoodoo-clusters-img">
 <section id="southwest" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="southwest">Southwest</h2>
 <p><strong>States:</strong> Missouri, Texas, Louisiana, Mississippi, Alabama <br> <strong>Crops:</strong> Cotton, Sugarcane <br> <strong>Notable influences:</strong> Senegambian Mande speakers (Bambara), Yoruba, Fon, Ewe speakers (modern-day Nigeria, Benin, Ghana, and Togo), Kongo-Angola-Zaire <br> <strong>Significance:</strong> Represents the inland and Gulf expansion of Hoodoo. The Bambara people were so numerous in Louisiana that their contributions to the development of Hoodoo left a widely recognized cultural legacy.</p>
@@ -528,6 +610,49 @@ h3 {
   <img src="images/dikenga.png" alt="description" class="pull-quote-img">
 </blockquote>
 </div>
+<!-- ============================================================ -->
+<!-- Resources                                                     -->
+<!-- ============================================================ -->
+<section id="resources" class="level2 page-section resources-section">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="sources-citations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-citations">Sources &amp; Citations</h3>
+<p><br></p>
+<p><strong>Books</strong></p>
+<p>Bae, J. (2024). The book of Juju: Africana spirituality for healing, liberation, and self-discovery. Sterling Ethos.</p>
+<p>Chireau, Y. P. (2003). Black magic: Religion and the African American conjuring tradition. University of California Press.</p>
+<p>Fennell, C. C. (2007). Crossroads and cosmologies: Diasporas and ethnogenesis in the New World. University Press of Florida.</p>
+<p>Gates, H. L., &amp; Tatar, M. (2018). The annotated African American folktales. (First edition). Liveright Publishing Corporation, a division of W. W. Norton &amp; Company.</p>
+<p>Gomez, M. A. (1998). Exchanging our country marks: The transformation of African identities in the colonial and antebellum South. University of North Carolina Press.</p>
+<p>Hamilton, V. (1985). The people could fly: American Black folktales (L. Dillon &amp; D. Dillon, Illus.). Knopf.</p>
+<p>Lee, M. E. (2017). Working the roots: Over 400 years of traditional African American healing. Wadastick.</p>
+<p>VanDyke, L. (2022). African American herbalism: A practical guide to healing plants and folk traditions. Ulysses Press.</p>
+<p><br></p>
+<p><strong>Articles</strong></p>
+<p>Hurston, Z. (1931). Hoodoo in America. Journal of American Folklore, 44(174), 317. https://doi.org/10.2307/535394</p>
+</section>
+<section id="data-credits" class="level3">
+<h3 class="anchored" data-anchor-id="data-credits">Data Credits</h3>
+<ul>
+<li>Regional groupings map adapted from Gomez, <em>Exchanging Our Country Marks</em> (1998), Figure 1.2.</li>
+<li>Data visualizations created with <a href="https://flourish.studio">Flourish</a>.</li>
+<li>[Add any additional map/image credits]</li>
+</ul>
+</section>
+</section>
+<button id="back-to-top" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+  <span aria-hidden="true">↑</span> Back to top
+</button>
+<script>
+window.addEventListener('scroll', function() {
+  var btn = document.getElementById('back-to-top');
+  if (window.scrollY > 800) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
+  }
+});
+</script>
 
 </main>
 <!-- /main column -->
