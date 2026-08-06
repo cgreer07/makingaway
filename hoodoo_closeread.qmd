@@ -661,11 +661,9 @@ Hover over a circle to learn more about each practice.
 
 :::: {.page-section}
 
-```{=html}
-<blockquote class="pull-quote">
-  <img src="images/dikenga.png" alt="description" class="pull-quote-img">
-</blockquote>
-```
+## Making A Way
+
+The People Could Fly- folktales, oral history, practice in secret, relgious syncretism. Modern Hoodoo. ubiquitous throughout culture. May not have noticed until adulthood provided access to knowledgable elders or peers who shared insight, language, and context to unexplained traditions. Learn more...
 
 ::::
 
@@ -707,9 +705,10 @@ Hurston, Z. (1931). Hoodoo in America. Journal of American Folklore, 44(174), 31
 
 ### Data Credits
 
-- Regional groupings map adapted from Gomez, *Exchanging Our Country Marks* (1998), Figure 1.2.
+- Ancestral Homelands map adapted from Gomez, *Exchanging Our Country Marks* (1998), Figure 1.2.
 - Data visualizations created with [Flourish](https://flourish.studio).
-- [Add any additional map/image credits]
+- Virginia General Assembly. “An Act Declaring That Baptisme of Slaves Doth Not Exempt Them from Bondage.” September 1667.   In William Waller Hening, ed., The Statutes at Large, vol. 2, p. 260, 1823.
+
 ::::
 
 ```{=html}
