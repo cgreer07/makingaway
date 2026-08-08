@@ -394,6 +394,50 @@ h3 {
   background: var(--ink);
   transition: width 0.1s ease-out;
 }
+
+.wiki-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: rgba(29, 33, 41, 0.4);
+  text-underline-offset: 3px;
+}
+.wiki-link:hover {
+  text-decoration-color: var(--ink);
+}
+
+.term {
+  position: relative;
+  border-bottom: 1px dotted rgba(29, 33, 41, 0.5);
+  cursor: help;
+}
+.term .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  max-width: 260px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid rgba(29, 33, 41, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: left;
+  z-index: 10;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.term:hover .tooltip,
+.term:focus .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
 </style>
 <section id="making-a-way" class="level1 hero">
 <h1>Making A Way</h1>
@@ -433,7 +477,7 @@ window.addEventListener('scroll', function() {
 <div class="trigger new-trigger" data-focus-on="cr-africa_ethnicities-img">
 <section id="african-origins" class="level1 map-step narrative">
 <h1>African Origins</h1>
-<p>The people forced across the Atlantic came from dozens of distinct ethnic groups — each with its own language, cosmology, and way of understanding the sacred.</p>
+<p>The people forced across the Atlantic came from dozens of distinct ethnic groups — each with its own language, <span class="term" tabindex="0">cosmology<span class="tooltip">A belief system’s account of how the universe is structured and ordered, including the relationship between the physical world, the spirit world, ancestors, and divine forces.</span></span>, and way of understanding the sacred.</p>
 </section>
 </div>
 <div class="trigger new-trigger" data-scale-by="3" data-pan-to="30%,20%" data-focus-on="cr-africa_ethnicities-img">
@@ -445,7 +489,7 @@ window.addEventListener('scroll', function() {
 <div class="trigger new-trigger" data-scale-by="3" data-pan-to="-25%,-25%" data-focus-on="cr-africa_ethnicities-img">
 <section id="kongo-angola" class="level2 map-step narrative">
 <h2 class="anchored" data-anchor-id="kongo-angola">Kongo-Angola</h2>
-<p>The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The Kongo cosmogram — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.</p>
+<p>The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <span class="term" tabindex="0">Kongo cosmogram <span class="tooltip"> <img src="images/kongo_cosmogram.png" alt="Kongo cosmogram symbol" class="tooltip-img">Dikenga dia Kongo also known as the Kongo cosmogram or Yowa cross, is a sacred spiritual symbol of the Bakongo culture. It is said to be the dominate influence on the counterclockwise circle dance or “Ring Shout”, although many other West African religions included sacred circle dancing. </span> </span> — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.</p>
 </section>
 </div>
 <div class="trigger new-trigger" data-scale-by="3" data-pan-to="65%,45%" data-focus-on="cr-africa_ethnicities-img">
@@ -479,7 +523,7 @@ window.addEventListener('scroll', function() {
 <!-- ============================================================ -->
 <section id="where-captives-came-from" class="level2 chart-wide page-section">
 <h2 class="anchored" data-anchor-id="where-captives-came-from">Where Captives Came From</h2>
-<p>The import of particular ethnic groups varied over time. This was largely due to slaveholder preferences and local ecology. For example, it is theorized that planters in South Carolina preferred Africans from the Windward Coast (Sierra Leone) and Senegambia because of their knowledge of rice cultivation. Rice became a principal crop in the region, and after 1700, the Carolina colony increasingly acquired direct shipments of these particular ethnic groups from Africa.</p>
+<p>The import of particular ethnic groups varied over time. This was largely due to slaveholder preferences and local <span class="term" tabindex="0">ecology<span class="tooltip">The web of relationships between people, plants, land, and natural forces — understood in many African and African American spiritual traditions as inherently spiritual, not merely biological.</span></span>. For example, it is theorized that planters in South Carolina preferred Africans from the Windward Coast (Sierra Leone) and Senegambia because of their knowledge of rice cultivation. Rice became a principal crop in the region, and after 1700, the Carolina colony increasingly acquired direct shipments of these particular ethnic groups from Africa.</p>
 <p>These patterns shaped more than the fields. The same climate and crops that made a region valuable for a particular agricultural skill also determined what plants were available for healing and ritual, how time was marked by planting and harvest seasons, and even how people dressed. And where one or two ethnic groups came to dominate a region during a given period — even as traditions melded across groups — their particular practices left a deeper imprint on what would take root locally as Hoodoo.</p>
 <div class="flourish-embed flourish-chart" data-src="visualisation/29824259">
   <script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -505,8 +549,8 @@ window.addEventListener('scroll', function() {
 </div>
 <p><br></p>
 </section>
-<section id="black-belt-hoodoo-developing-traditions-in-the-american-south" class="level2">
-<h2 class="anchored" data-anchor-id="black-belt-hoodoo-developing-traditions-in-the-american-south">Black Belt Hoodoo: Developing Traditions in the American South</h2>
+<section id="black-belta-swath-of-the-southeastern-united-states-named-for-its-dark-fertile-soil-which-became-home-to-a-dense-concentration-of-enslaved-and-later-free-black-communities-due-to-the-plantation-economy.-hoodoo-developing-traditions-in-the-american-south" class="level2">
+<h2 class="anchored" data-anchor-id="black-belta-swath-of-the-southeastern-united-states-named-for-its-dark-fertile-soil-which-became-home-to-a-dense-concentration-of-enslaved-and-later-free-black-communities-due-to-the-plantation-economy.-hoodoo-developing-traditions-in-the-american-south"><span class="term" tabindex="0">Black Belt<span class="tooltip">A swath of the southeastern United States named for its dark, fertile soil, which became home to a dense concentration of enslaved and later free Black communities due to the plantation economy.</span></span> Hoodoo: Developing Traditions in the American South</h2>
 <p>The continued influx of newly enslaved Africans ensured that Hoodoo would evolve with each new arrival. Before the rise of cotton in 1807, there were more distinct regional and African ethnic differences in the daily lives of the enslaved.</p>
 </section>
 </div>
@@ -554,16 +598,19 @@ window.addEventListener('scroll', function() {
 </div>
 </div>
 <!-- ============================================================ -->
-<!-- Line Chart                                                    -->
+<!-- Practices and Beliefs — Network Diagram                      -->
 <!-- ============================================================ -->
-<section id="as-the-black-population-grew-hoodoo-traditions-endured" class="level2 chart-section page-section">
-<h2 class="anchored" data-anchor-id="as-the-black-population-grew-hoodoo-traditions-endured">As the Black Population Grew, Hoodoo Traditions Endured</h2>
-<p>Between 1740 and 1780, nearly half of all Africans arriving in America during the slave trade entered during this period. They joined African-descended communities that had already existed within the three regional Hoodoo clusters for nearly a century, bringing new spiritual, medicinal, and cultural knowledge into traditions already taking shape. As the Black population grew from approximately 757,208 in 1790 to 9.8 million in 1910, these traditions were preserved, blended, and carried forward across communities and generations.</p>
-<p>Hover over a point to learn the population total for a particular decade. <br></p>
-<div class="flourish-embed flourish-chart" data-src="visualisation/29788009">
+<section id="the-ritual-network" class="level2 page-section">
+<h2 class="anchored" data-anchor-id="the-ritual-network">The Ritual Network</h2>
+<p>Spiritual control, community regulation, protection from harm, the attraction of good fortune, and herbal healing all shaped the role of Hoodoo within enslaved communities.</p>
+<p>That spiritual practice grew out of belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview shaped many of the practices that later developed within Hoodoo.</p>
+<p>In Yoruba religion, for example, <span class="term" tabindex="0">orishas<span class="tooltip">A divine being or spiritual force in Yoruba religion, believed to guide humanity and govern specific aspects of life and the natural world on behalf of the Supreme Being.</span></span> are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.</p>
+<p>Hoodoo’s core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred <a href="https://en.wikipedia.org/wiki/Ring_shout" class="wiki-link" target="_blank" rel="noopener">Ring Shout</a> or during divination rituals.</p>
+<p>Hover over a circle to learn more about each practice.</p>
+<div class="flourish-embed flourish-network" data-src="visualisation/29797299">
   <script src="https://public.flourish.studio/resources/embed.js"></script>
   <noscript>
-    <img src="https://public.flourish.studio/visualisation/29788009/thumbnail" width="100%" alt="chart visualization">
+    <img src="https://public.flourish.studio/visualisation/29797299/thumbnail" width="100%" alt="network visualization">
   </noscript>
 </div>
 </section>
@@ -588,23 +635,6 @@ window.addEventListener('scroll', function() {
   <img src="images/capstone_timeline.png" alt="The Evolution of Hoodoo — full size">
   <span class="lightbox-close">×</span>
 </div>
-<!-- ============================================================ -->
-<!-- Practices and Beliefs — Network Diagram                      -->
-<!-- ============================================================ -->
-<section id="the-ritual-network" class="level2 page-section">
-<h2 class="anchored" data-anchor-id="the-ritual-network">The Ritual Network</h2>
-<p>Spiritual control, community regulation, protection from harm, the attraction of good fortune, and herbal healing all shaped the role of Hoodoo within enslaved communities.</p>
-<p>That spiritual practice grew out of belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview shaped many of the practices that later developed within Hoodoo.</p>
-<p>In Yoruba religion, for example, orishas are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.</p>
-<p>Hoodoo’s core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred Ring Shout or during divination rituals.</p>
-<p>Hover over a circle to learn more about each practice.</p>
-<div class="flourish-embed flourish-network" data-src="visualisation/29797299">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/29797299/thumbnail" width="100%" alt="network visualization">
-  </noscript>
-</div>
-</section>
 <section id="making-a-way-1" class="level2 page-section">
 <h2 class="anchored" data-anchor-id="making-a-way-1">Making A Way</h2>
 <p>The People Could Fly- folktales, oral history, practice in secret, relgious syncretism. Modern Hoodoo. ubiquitous throughout culture. May not have noticed until adulthood provided access to knowledgable elders or peers who shared insight, language, and context to unexplained traditions. Learn more…</p>
