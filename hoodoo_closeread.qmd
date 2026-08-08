@@ -386,6 +386,10 @@ h3 {
   visibility: visible;
   opacity: 1;
 }
+
+.page-section + .page-section {
+  padding-top: 0;
+}
 </style>
 ```
 
@@ -393,10 +397,7 @@ h3 {
 
 # Making A Way
 
-## Understanding the Development of Hoodoo Cultural Traditions in the United States
-
-
-A visual journey through the African regions, forced migrations, and cultural traditions that shaped Hoodoo in North America.
+## Tracing the African Origins and Development of Hoodoo Cultural Traditions in the United States
 
 
 Scroll to begin ↓
@@ -427,13 +428,37 @@ window.addEventListener('scroll', function() {
 
 It's no mistake that you have arrived here today. If you're anything like me, you're here because you've already heard the whispers... and now you're curious. 
 
-For many of us, there is a second coming of age that involves unlearning old worldviews, learning a new perspective, and recontextualizing your identity. So, allow me to introduce you to the often misunderstood tradition called Hoodoo.  
+For many of us, there is a second coming of age that involves unlearning old worldviews, embracing new perspectives, and recontextualizing our identities. So, allow me to introduce you to the often misunderstood tradition called Hoodoo. 
 
-Hoodoo, also known as "conjure," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is heavily influenced by West and West Central African religions, Native American herb and healing traditions, as well as European influences and Christianity. 
+Here's what you need to know:
 
-It isn't a religion in an institutional sense, but it is a system of practical knowledge passed down and adapted across generations.
+**Hoodoo**, also known as "*conjure*" or "*root work*," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is directly influenced by West and West Central African religions. It is used to govern all aspects of life including mental, spiritual, and physical health, financial and legal issues, and to protect against hardships, curses, and hexes.
 
-This is a story about making a way, persevering through every system built to strip away autonomy, agency, and expression, and building a culture that survived anyway.
+It isn't considered a religion in an institutional sense, but it is a system of practical knowledge passed down and adapted across generations. Its formation and preservation in the New World relied on persistence, secrecy, and making do with available resources. 
+
+This is a story not just of survival, but of ingenuity, creativity, and supernatural power — one in which enslaved and free Black communities built a spiritual practice resilient enough to withstand every mechanism designed to destroy it, and vital enough to forge new traditions of healing, resistance, and belonging that still shape Black spiritual life today.
+
+::::
+
+<!-- ============================================================ -->
+<!-- African Religion Complex — Cards                              -->
+<!-- ============================================================ -->
+
+:::: {.page-section}
+## The African Religion Complex
+
+Scholar Katrina Hazzard-Donald identifies eight unifying spiritual practices shared across diverse African ethnic and religious traditions, forming the foundation from which Hoodoo developed. 
+
+*Click on a card to see a description.*
+
+```{=html}
+<div class="flourish-embed flourish-cards" data-src="visualisation/29917916">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/29917916/thumbnail" width="100%" alt="cards visualization" />
+  </noscript>
+</div>
+```
 
 ::::
 
@@ -467,9 +492,9 @@ Among West Africa's many peoples, the Yoruba (5) stand out as one of the most si
 
 ## Kongo-Angola
 
-The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <span class="term" tabindex="0">Kongo cosmogram
+The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <span class="term" tabindex="0"><em>Kongo cosmogram</em>
   <span class="tooltip">
-    <img src="images/kongo_cosmogram.png" alt="Kongo cosmogram symbol" class="tooltip-img">Dikenga dia Kongo also known as the Kongo cosmogram or Yowa cross, is a sacred spiritual symbol of the Bakongo culture. It is said to be the dominate influence on the counterclockwise circle dance or “Ring Shout”, although many other West African religions included sacred circle dancing.
+    <img src="images/kongo_cosmogram.png" alt="Kongo cosmogram symbol" class="tooltip-img">**Dikenga dia Kongo** also known as the **Kongo cosmogram** or **Yowa cross**, is a sacred spiritual symbol of the Bakongo culture. It is said to be the dominate influence on the counterclockwise circle dance or “Ring Shout”, although many other West African religions included sacred circle dancing.
   </span>
 </span> — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.
 
@@ -479,7 +504,7 @@ The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <sp
 
 ## Bambara
 
-The Bambara of Senegambia (1) held a spiritual worldview built on intimacy between the earth, the spirit world, and human beings. They were especially noted for their use of amulets and charms — objects of intercession and divination that carried protective and revealing power.
+The Bambara of Senegambia (1) held a spiritual worldview built on intimacy between the earth, the spirit world, and human beings. They were especially noted for their use of *amulets and charms* — objects of intercession and divination that carried protective and revealing power.
 
 :::
 
@@ -499,9 +524,9 @@ Every ethnic group carried its own distinct traditions — yet across the contin
 
 :::: {.chart-wide .page-section}
 
-## Where Captives Came From
+## Where Our Ancestors Came From
 
-The import of particular ethnic groups varied over time. This was largely due to slaveholder preferences and local <span class="term" tabindex="0">ecology<span class="tooltip">The web of relationships between people, plants, land, and natural forces — understood in many African and African American spiritual traditions as inherently spiritual, not merely biological.</span></span>. For example, it is theorized that planters in South Carolina preferred Africans from the Windward Coast (Sierra Leone) and Senegambia because of their knowledge of rice cultivation. Rice became a principal crop in the region, and after 1700, the Carolina colony increasingly acquired direct shipments of these particular ethnic groups from Africa.
+The import of particular ethnic groups varied over time. This was largely due to slaveholder preferences and local <span class="term" tabindex="0"><em>ecology</em><span class="tooltip">The web of relationships between people, plants, land, and natural forces — understood in many African and African American spiritual traditions as inherently spiritual, not merely biological.</span></span>. For example, it is theorized that planters in South Carolina preferred Africans from the Windward Coast (Sierra Leone) and Senegambia because of their knowledge of rice cultivation. Rice became a principal crop in the region, and after 1700, the Carolina colony increasingly acquired direct shipments of these particular ethnic groups from Africa.
 
 These patterns shaped more than the fields. The same climate and crops that made a region valuable for a particular agricultural skill also determined what plants were available for healing and ritual, how time was marked by planting and harvest seasons, and even how people dressed. And where one or two ethnic groups came to dominate a region during a given period — even as traditions melded across groups — their particular practices left a deeper imprint on what would take root locally as Hoodoo.
 
@@ -524,11 +549,11 @@ These patterns shaped more than the fields. The same climate and crops that made
 :::: {.page-section}
 ## Tracing Documented Connections Across the Atlantic
 
-Each line in this diagram traces a documented route — a specific African region connected to a specific American colony. West Central Africa and St. Helena formed the largest recorded source region, while South Carolina and Virginia received the greatest number of documented captives.
+Each line in this diagram traces a documented route — a specific African region connected to a specific American colony. West Central Africa and St. Helena formed the largest recorded source region, while South Carolina and Virginia received the greatest number of documented enslaved persons.
 
 These routes were not evenly distributed. Colonies drew disproportionately from different African regions, shaped by the same forces already at work — the crops a colony grew, the skills its planters sought, the ports it traded through most often. The result was not one uniform culture taking root in North America, but many regional variations, each shaped by which African peoples arrived there in the greatest numbers, and what knowledge they carried with them.
 
-Hover over a line to see how many captives were transferred between regions.
+Hover over a line to see how many people were forcibly transferred between regions.
 
 ```{=html}
 <div class="flourish-embed flourish-sankey" data-src="visualisation/29490123">
@@ -574,7 +599,7 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 <br>
 **Crops:** Tobacco, Corn, Wheat
 <br>
-**Notable influences:** Akan people, captives from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola
+**Notable influences:** Akan people, people from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola
 <br>
 **Significance:** Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and harvesting leafy plants. Ironworking was an honored craft among the Bakongo people, as they believed it involved applying mystical powers to transform materials. The Yoruba placed great emphasis on the use of iron materials in religious objects. In hoodoo, special skill sets such as this would influence status within the community just as they would in African traditional religions.
 :::
@@ -657,7 +682,7 @@ Hover over a circle to learn more about each practice.
 
 The development of Hoodoo was by no means a straightforward process. It was ever evolving under the conditions of chattel slavery in the New World. Its presence was secretive and oftentimes invisible. It began with the fragmentation and breakdown of West African religious systems, otherwise known as "the death of the Gods." What happened thereafter depended upon the bondsmen's ability to preserve and pass down sacred knowledge.
 
-Running concurrently with the disruption of traditional spiritual continuity was interethnic assimilation among captive Africans and an openness to integrating external beliefs and practices, along with substituting ritual items. Eventually, cotton production would reign supreme across the South. This would modify the material culture across the black belt, causing the lives of the enslaved to become more similar and leading to the homogenization of the three regional Hoodoo traditions.
+Running concurrently with the disruption of traditional spiritual continuity was interethnic assimilation among enslaved Africans and an openness to integrating external beliefs and practices, along with substituting ritual items. Eventually, cotton production would reign supreme across the South. This would modify the material culture across the black belt, causing the lives of the enslaved to become more similar and leading to the homogenization of the three regional Hoodoo traditions.
 
 Below is a timeline highlighting some of the major factors that contributed to the development of Hoodoo in America. While it is not all-encompassing, it provides a general overview of how Hoodoo evolved over time within its broader historical context.
 
