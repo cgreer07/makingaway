@@ -447,9 +447,9 @@ This is a story not just of survival, but of ingenuity, creativity, and supernat
 :::: {.page-section}
 ## The African Religion Complex
 
-Scholar Katrina Hazzard-Donald identifies eight unifying spiritual practices shared across diverse African ethnic and religious traditions, forming the foundation from which Hoodoo developed. 
+Scholar Katrina Hazzard-Donald identifies eight unifying spiritual practices shared across diverse African ethnic and religious traditions, forming the foundation from which Hoodoo developed. These practices took shape within a broader worldview that included belief in a Supreme Being, no firm separation between the sacred and the secular, and a structured social hierarchy.
 
-*Click on a card to see a description.*
+*Click on a card to see a description of each practice*
 
 ```{=html}
 <div class="flourish-embed flourish-cards" data-src="visualisation/29917916">
