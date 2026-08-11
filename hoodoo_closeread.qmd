@@ -759,7 +759,7 @@ That history is still being written. Hoodoo is being rediscovered online, studie
 :::: {.page-section .resources-section}
 ## Resources
 
-**Print Sources**
+### Print Sources
 
 Bae, J. (2024). The book of Juju: Africana spirituality for healing, liberation, and self-discovery. Sterling Ethos.
 
@@ -783,7 +783,7 @@ Virginia General Assembly. “An Act Declaring That Baptisme of Slaves Doth Not 
 
 <br>
 
-**Online Sources**
+### Online Sources
 
 Black Herman. (Year, Month Day). In Wikipedia. <https://en.wikipedia.org/wiki/Black_Herman>
 
@@ -819,6 +819,19 @@ Shawler, C. R. (2024, February 9). Demystifying Hoodoo: Spiritual tradition of r
 
 Whitcomb, L. N. (2022, October 18). Hoodoo heritage month: Conjuring, culture, and community. MadameNoire. <https://madamenoire.com/1325640/hoodoo-heritage-month/>
 
+### Software
+
+AI language models — ChatGPT (OpenAI) and Claude (Anthropic) — were used to edit select passages of this project's narrative text for clarity and flow, and to assist in troubleshooting and refining code. Data analysis and visualization were conducted using R, and this project's interactive scrollytelling format was built using Quarto (closeread-html). Adobe Illustrator was used to design the project's maps and timeline graphics.
+
+Adobe Inc. (2026). Adobe Illustrator [Computer software]. https://www.adobe.com/products/illustrator.html
+
+Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2024). Quarto (Version 1.10.18) [Computer software]. https://doi.org/10.5281/zenodo.5960048
+
+Anthropic. (2026). Claude [Large language model]. https://claude.ai
+
+OpenAI. (2026). ChatGPT [Large language model]. https://chatgpt.com
+
+R Core Team. (2026). R: A language and environment for statistical computing. R Foundation for Statistical Computing. https://www.R-project.org/
 
 ### Data Credits
 
