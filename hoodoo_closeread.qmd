@@ -410,6 +410,17 @@ h3 {
   line-height: 1;
   cursor: pointer;
 }
+
+.site-footer {
+  text-align: center;
+  padding: 3rem 2rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+  opacity: 0.7;
+}
+.site-footer p {
+  margin: 0.25rem 0;
+}
 </style>
 ```
 
@@ -418,6 +429,8 @@ h3 {
 # Making A Way
 
 ## Tracing the African Origins and Development of Hoodoo Cultural Traditions in the United States
+
+<p class="hero-byline">Christina Greer · MPS Data Analytics & Visualization</p>
 
 
 Scroll to begin ↓
@@ -918,4 +931,11 @@ window.addEventListener('scroll', function() {
   }
 });
 </script>
+```
+
+```{=html}
+<footer class="site-footer">
+  <p>Christina Greer</p>
+  <p>MPS Data Analytics & Visualization, MICA Summer 2025 Cohort</p>
+</footer>
 ```
