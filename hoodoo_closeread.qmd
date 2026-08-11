@@ -360,6 +360,13 @@ h3 {
   width: 100%;
   min-width: 0;
 }
+
+.tooltip-img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto 0.5rem;
+}
 </style>
 ```
 
@@ -731,11 +738,16 @@ Many other important figures, plants, and specialized roles are part of Hoodoo�
 
 ## Making A Way
 
-Hoodoo survived by moving quietly — through folktales, oral history, and traditions practiced in secret, blending African, Christian, and Indigenous belief into something entirely its own. For many of us, it was ubiquitous long before it had a name: present in a grandmother's remedy, a warning never explained, a habit no one questioned — until an elder or a peer finally gave it language, context, and history.
+Hoodoo survived by moving quietly — through folktales, oral history, and traditions practiced in secret, blending African, Christian, and Indigenous belief into something entirely its own. For many of us, it was <span class="term" tabindex="0">ubiquitous<span class="tooltip">Present or found everywhere — woven into everyday culture so thoroughly that its presence often goes unrecognized.</span></span> long before it had a name: present in a grandmother's remedy, a warning never explained, a habit no one questioned — until an elder or a peer finally gave it language, context, and history.
 
 That history is still being written. Hoodoo is being rediscovered online, studied by scholars, and made newly visible — sometimes reverently, sometimes commercially. But its survival was never in anyone else's hands. It belongs to the people who practice it, adapt it, and choose, generation after generation, to carry it forward.
 
-Sankofa teaches us to look back so that we may move forward. In that spirit, learn more about the histories, voices, and sources behind this story.
+<span class="term" tabindex="0">Sankofa
+  <span class="tooltip">
+    <img src="images/sankofa.png" alt="Sankofa adinkra symbol" class="tooltip-img">
+    An Akan concept, often symbolized by a heart or bird looking backward, meaning "go back and get it" — the idea that you must reach into the past to move forward.
+  </span>
+</span> teaches us to look back so that we may move forward. In that spirit, learn more about the histories, voices, and sources behind this story.
 [Learn more →](#resources)
 
 ::::
@@ -825,7 +837,7 @@ SlaveVoyages. (2024). *Trans-Atlantic Slave Trade Database*. <https://www.slavev
 :::: {.page-section}
 ## Statement of Gratitude
 
-Thank you to everyone who has supported the creation of this project — family, dear friends, peers, instructors, practitioners, scholars, and the ancestors that laid the path.
+Thank you to everyone who has supported the creation of this project — family, dear friends, peers, instructors, practitioners, scholars, and the ancestors that laid the path. May we all continue to grow in love, knowledge, and power. *Ashe. Amen.*
 ::::
 
 ```{=html}
