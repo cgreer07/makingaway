@@ -172,10 +172,6 @@ h3 {
   }
 }
 
-.timeline-img {
-  cursor: zoom-in;
-}
-
 .timeline-section {
   width: 100vw;
   max-width: 1600px;
@@ -191,48 +187,6 @@ h3 {
   height: auto;
   display: block;
   border-radius: 8px;
-  cursor: zoom-in;
-}
-.timeline-hint {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #6b6b6b;
-  margin-top: 0.5rem;
-}
-
-.lightbox {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(29, 33, 41, 0.92);
-  z-index: 1000;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  cursor: zoom-out;
-}
-
-.lightbox.active {
-  display: flex;
-}
-
-.lightbox img {
-  max-width: 95vw;
-  max-height: 95vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-.lightbox-close {
-  position: fixed;
-  top: 1.5rem;
-  right: 2rem;
-  color: white;
-  font-size: 2.5rem;
-  line-height: 1;
-  cursor: pointer;
 }
 
 .page-section {
@@ -390,6 +344,22 @@ h3 {
 .page-section + .page-section {
   padding-top: 0;
 }
+
+.cr-section .flourish-embed,
+.cr-section .flourish-embed iframe {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 auto;
+  display: block;
+}
+.sticky-col-stack {
+  grid-template-columns: 1fr;
+}
+.sticky-col-stack,
+#cr-whos-who-cards {
+  width: 100%;
+  min-width: 0;
+}
 </style>
 ```
 
@@ -401,6 +371,7 @@ h3 {
 
 
 Scroll to begin ↓
+
 
 :::
 
@@ -432,11 +403,13 @@ For many of us, there is a second coming of age that involves unlearning old wor
 
 Here's what you need to know:
 
-**Hoodoo**, also known as "*conjure*" or "*root work*," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is directly influenced by West and West Central African religions. It is used to govern all aspects of life including mental, spiritual, and physical health, financial and legal issues, and to protect against hardships, curses, and hexes.
+**Hoodoo**, also known as "*conjure*" or "*root work*," is a spiritual folk tradition created by enslaved African Americans in the southern United States that is directly influenced by West and West-Central African religions. It is used to govern all aspects of life including mental, spiritual, and physical health, financial and legal issues, and to protect against hardships, curses, and hexes.
 
 It isn't considered a religion in an institutional sense, but it is a system of practical knowledge passed down and adapted across generations. Its formation and preservation in the New World relied on persistence, secrecy, and making do with available resources. 
 
-This is a story not just of survival, but of ingenuity, creativity, and supernatural power — one in which enslaved and free Black communities built a spiritual practice resilient enough to withstand every mechanism designed to destroy it, and vital enough to forge new traditions of healing, resistance, and belonging that still shape Black spiritual life today.
+That secrecy often meant blending African traditions directly into Christian worship — a process called religious syncretism. The clearest example is the Ring Shout, whose call-and-response shaped early African American worship and survives today in Sanctified, or Holiness-Pentecostal, churches, including the Church of God in Christ (COGIC), the largest historically Black Pentecostal denomination. This worship style, deeply influenced by Hoodoo, is marked by exuberant expressions of faith — singing, dancing, and ecstatic praise — along with practices like feet washing, communion, full immersion baptism, and speaking in tongues.
+
+The Ring Shout's path — from a hidden nighttime ritual to the beating heart of one of the largest Black denominations in America — captures something essential about Hoodoo itself. This is a story not just of survival, but of ingenuity, creativity, and supernatural power — one in which enslaved and free Black communities built a spiritual practice resilient enough to withstand every mechanism designed to destroy it, and vital enough to forge new traditions of healing, resistance, and belonging that still shape Black spiritual life today.
 
 ::::
 
@@ -449,7 +422,7 @@ This is a story not just of survival, but of ingenuity, creativity, and supernat
 
 Scholar Katrina Hazzard-Donald identifies eight unifying spiritual practices shared across diverse African ethnic and religious traditions, forming the foundation from which Hoodoo developed. These practices took shape within a broader worldview that included belief in a Supreme Being, no firm separation between the sacred and the secular, and a structured social hierarchy.
 
-*Click on a card to see a description of each practice*
+*Click on a card to see a description of each practice.*
 
 ```{=html}
 <div class="flourish-embed flourish-cards" data-src="visualisation/29917916">
@@ -478,26 +451,8 @@ Scholar Katrina Hazzard-Donald identifies eight unifying spiritual practices sha
 # African Origins
 
 The people forced across the Atlantic came from dozens of distinct ethnic groups — each with its own language, <span class="term" tabindex="0">cosmology<span class="tooltip">A belief system's account of how the universe is structured and ordered, including the relationship between the physical world, the spirit world, ancestors, and divine forces.</span></span>, and way of understanding the sacred.
-:::
 
-::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="30%,20%"}
-
-## Yoruba
-
-Among West Africa's many peoples, the Yoruba (5) stand out as one of the most significant influences on what would become Hoodoo — their systems of divination, herbal knowledge, and reverence for spirit carried directly into Black American spiritual practice.
-
-:::
-
-::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="-25%,-25%"}
-
-## Kongo-Angola
-
-The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <span class="term" tabindex="0"><em>Kongo cosmogram</em>
-  <span class="tooltip">
-    <img src="images/kongo_cosmogram.png" alt="Kongo cosmogram symbol" class="tooltip-img">**Dikenga dia Kongo** also known as the **Kongo cosmogram** or **Yowa cross**, is a sacred spiritual symbol of the Bakongo culture. It is said to be the dominate influence on the counterclockwise circle dance or “Ring Shout”, although many other West African religions included sacred circle dancing.
-  </span>
-</span> — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.
-
+↓
 :::
 
 ::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="65%,45%"}
@@ -506,13 +461,42 @@ The Kongo-Angolans (9) of West Central Africa left an equally deep mark. The <sp
 
 The Bambara of Senegambia (1) held a spiritual worldview built on intimacy between the earth, the spirit world, and human beings. They were especially noted for their use of *amulets and charms* — objects of intercession and divination that carried protective and revealing power.
 
+↓
+
 :::
+
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="30%,20%"}
+
+## Yoruba
+
+Among West Africa's many peoples, the Yoruba (5) stand out as one of the most significant influences on what would become Hoodoo — their systems of divination, herbal knowledge, and reverence for spirit carried directly into Black American spiritual practice.
+
+↓
+
+:::
+
+::: {focus-on="cr-africa_ethnicities-img" .map-step scale-by="3" pan-to="-25%,-25%"}
+
+## Kongo-Angola
+
+The Kongo-Angolans (9) of West-Central Africa left an equally deep mark. The <span class="term" tabindex="0"><em>Kongo cosmogram</em>
+  <span class="tooltip">
+    <img src="images/kongo_cosmogram.png" alt="Kongo cosmogram symbol" class="tooltip-img">**Dikenga dia Kongo** also known as the **Kongo cosmogram** or **Yowa cross**, is a sacred spiritual symbol of the Bakongo culture. It is said to be the dominate influence on the counterclockwise circle dance or “Ring Shout”, although many other West African religions included sacred circle dancing.
+  </span>
+</span> — a cross marking the boundary between the living and the spirit world — echoes throughout Hoodoo ritual to this day.
+
+↓
+
+:::
+
 
 ::: {focus-on="cr-africa_ethnicities-img" .map-step}
 
 ## Shared Foundations
 
 Every ethnic group carried its own distinct traditions — yet across the continent, certain spiritual foundations recur. The Akan (4) and the Igbo (7), for example, both hold a deep reverence for earth mothers, a belief that unites people to land and to ancestors in the same breath.
+
+↓
 
 :::
 
@@ -549,11 +533,11 @@ These patterns shaped more than the fields. The same climate and crops that made
 :::: {.page-section}
 ## Tracing Documented Connections Across the Atlantic
 
-Each line in this diagram traces a documented route — a specific African region connected to a specific American colony. West Central Africa and St. Helena formed the largest recorded source region, while South Carolina and Virginia received the greatest number of documented enslaved persons.
+Each line in this diagram traces a documented route — a specific African region connected to a specific American colony. West-Central Africa and St. Helena formed the largest recorded source region, while South Carolina and Virginia received the greatest number of documented enslaved persons.
 
 These routes were not evenly distributed. Colonies drew disproportionately from different African regions, shaped by the same forces already at work — the crops a colony grew, the skills its planters sought, the ports it traded through most often. The result was not one uniform culture taking root in North America, but many regional variations, each shaped by which African peoples arrived there in the greatest numbers, and what knowledge they carried with them.
 
-Hover over a line to see how many people were forcibly transferred between regions.
+*Hover over a line to see how many people were forcibly transferred between regions.*
 
 ```{=html}
 <div class="flourish-embed flourish-sankey" data-src="visualisation/29490123">
@@ -566,7 +550,7 @@ Hover over a line to see how many people were forcibly transferred between regio
 
 <br>
 
-## <span class="term" tabindex="0">Black Belt<span class="tooltip">A swath of the southeastern United States named for its dark, fertile soil, which became home to a dense concentration of enslaved and later free Black communities due to the plantation economy.</span></span> Hoodoo: Developing Traditions in the American South
+## Black Belt Hoodoo: Developing Traditions in the American South
 
 The continued influx of newly enslaved Africans ensured that Hoodoo would evolve with each new arrival. Before the rise of cotton in 1807, there were more distinct regional and African ethnic differences in the daily lives of the enslaved.
 
@@ -589,6 +573,8 @@ The continued influx of newly enslaved Africans ensured that Hoodoo would evolve
 
 By the early 19th century, Hoodoo had taken on distinct regional characteristics. Climate, crop ecology, the structure of the local slave economy, and the size and density of plantation communities all shaped which traditions took deepest root — as did the particular skills colonists sought in the people they enslaved. Interaction with Native American and European folk and religious traditions left their own mark as well.
 
+↓
+
 :::
 
 ::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="-65%,30%"}
@@ -602,6 +588,9 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 **Notable influences:** Akan people, people from the Gold Coast (Ghana) and Bight of Biafra (coasts of Nigeria, Cameroon, Equatorial Guinea, and northern Gabon), Kongo-Angola
 <br>
 **Significance:** Colonists in this region targeted Africans with skills in ironworking, maritime expertise, and harvesting leafy plants. Ironworking was an honored craft among the Bakongo people, as they believed it involved applying mystical powers to transform materials. The Yoruba placed great emphasis on the use of iron materials in religious objects. In hoodoo, special skill sets such as this would influence status within the community just as they would in African traditional religions.
+
+↓
+
 :::
 
 ::: {focus-on="cr-hoodoo-clusters-img" .map-step scale-by="2" pan-to="-65%,-30%"}
@@ -614,7 +603,9 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 <br>
 **Notable influences:** Sierra Leone, Kongo-Angola, Igbo people (Nigeria)
 <br>
-**Significance:** While multiple African ethnic groups shaped this region, West Central African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.
+**Significance:** While multiple African ethnic groups shaped this region, West-Central African (Kongo) cosmology became a dominant and enduring influence across the South. Along the Lowcountry coast, relative isolation on rice plantations and sea islands allowed Gullah Geechee culture to develop and endure with unusual continuity — preserving language, foodways, and spiritual practice more directly tied to their African origins than almost anywhere else in North America.
+
+↓
 
 :::
 
@@ -629,6 +620,8 @@ By the early 19th century, Hoodoo had taken on distinct regional characteristics
 **Notable influences:** Senegambian Mande speakers (Bambara), Yoruba, Fon, Ewe speakers (modern-day Nigeria, Benin, Ghana, and Togo), Kongo-Angola-Zaire
 <br>
 **Significance:** Represents the inland and Gulf expansion of Hoodoo. The Bambara people were so numerous in Louisiana that their contributions to the development of Hoodoo left a widely recognized cultural legacy.
+
+↓
 
 :::
 
@@ -649,7 +642,7 @@ In Yoruba religion, for example, <span class="term" tabindex="0">orishas<span cl
 
 Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred <a href="https://en.wikipedia.org/wiki/Ring_shout" class="wiki-link" target="_blank" rel="noopener">Ring Shout</a> or during divination rituals. 
 
-Hover over a circle to learn more about each practice.
+*Hover over a circle to learn more about each practice.*
 
 
 ```{=html}
@@ -682,7 +675,7 @@ Hover over a circle to learn more about each practice.
 
 The development of Hoodoo was by no means a straightforward process. It was ever evolving under the conditions of chattel slavery in the New World. Its presence was secretive and oftentimes invisible. It began with the fragmentation and breakdown of West African religious systems, otherwise known as "the death of the Gods." What happened thereafter depended upon the bondsmen's ability to preserve and pass down sacred knowledge.
 
-Running concurrently with the disruption of traditional spiritual continuity was interethnic assimilation among enslaved Africans and an openness to integrating external beliefs and practices, along with substituting ritual items. Eventually, cotton production would reign supreme across the South. This would modify the material culture across the black belt, causing the lives of the enslaved to become more similar and leading to the homogenization of the three regional Hoodoo traditions.
+Running concurrently with the disruption of traditional spiritual continuity was interethnic assimilation among enslaved Africans and an openness to integrating external beliefs and practices, along with substituting ritual items. Eventually, cotton production would reign supreme across the South. This would modify the material culture across the <span class="term" tabindex="0"><em>black belt</em><span class="tooltip">A swath of the southeastern United States named for its dark, fertile soil, which became home to a dense concentration of enslaved and later free Black communities due to the plantation economy.</span></span>, causing the lives of the enslaved to become more similar and leading to the homogenization of the three regional Hoodoo traditions.
 
 Below is a timeline highlighting some of the major factors that contributed to the development of Hoodoo in America. While it is not all-encompassing, it provides a general overview of how Hoodoo evolved over time within its broader historical context.
 
@@ -691,28 +684,59 @@ Below is a timeline highlighting some of the major factors that contributed to t
 ```{=html}
 <img src="images/capstone_timeline.png"
      alt="The Evolution of Hoodoo: from African traditions to an evolving African American practice"
-     class="timeline-img"
-     onclick="document.getElementById('timeline-lightbox').classList.add('active')">
-<p class="timeline-hint">Click to enlarge</p>
+     class="timeline-img">
 ```
 
 ::::
 
+:::: {.cr-section .page-section layout="sidebar-left"}
+
+::: {#cr-whos-who-cards}
 ```{=html}
-<div id="timeline-lightbox" class="lightbox" onclick="this.classList.remove('active')">
-  <img src="images/capstone_timeline.png" alt="The Evolution of Hoodoo — full size">
-  <span class="lightbox-close">&times;</span>
+<div class="flourish-embed flourish-cards" data-src="visualisation/29929959">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/29929959/thumbnail" width="100%" alt="cards visualization" />
+  </noscript>
 </div>
 ```
+:::
 
+::: {focus-on="cr-whos-who-cards" .map-step}
+During the second phase of Hoodoo’s development, established traditions stabilized and gained a national profile. Hoodoo entered the mainstream commercial market, attracting new practitioners and exploiters while generating many of the myths and legends associated with the tradition today. 
 
+↓
 
+:::
+
+::: {focus-on="cr-whos-who-cards" .map-step}
+
+This is a glimpse into the "who's who" of  Hoodoo— the curios that carry spiritual power, the specialized roles that gave the tradition its structure, and the notable figures who practiced and preserved it.
+
+↓
+
+:::
+
+::: {focus-on="cr-whos-who-cards" .map-step}
+
+Many other important figures, plants, and specialized roles are part of Hoodoo’s history. Visit the resources section to continue exploring the tradition.
+
+↓
+
+:::
+
+::::
 
 :::: {.page-section}
 
 ## Making A Way
 
-The People Could Fly- folktales, oral history, practice in secret, relgious syncretism. Modern Hoodoo. ubiquitous throughout culture. May not have noticed until adulthood provided access to knowledgable elders or peers who shared insight, language, and context to unexplained traditions. Learn more...
+Hoodoo survived by moving quietly — through folktales, oral history, and traditions practiced in secret, blending African, Christian, and Indigenous belief into something entirely its own. For many of us, it was ubiquitous long before it had a name: present in a grandmother's remedy, a warning never explained, a habit no one questioned — until an elder or a peer finally gave it language, context, and history.
+
+That history is still being written. Hoodoo is being rediscovered online, studied by scholars, and made newly visible — sometimes reverently, sometimes commercially. But its survival was never in anyone else's hands. It belongs to the people who practice it, adapt it, and choose, generation after generation, to carry it forward.
+
+Sankofa teaches us to look back so that we may move forward. In that spirit, learn more about the histories, voices, and sources behind this story.
+[Learn more →](#resources)
 
 ::::
 
@@ -723,11 +747,7 @@ The People Could Fly- folktales, oral history, practice in secret, relgious sync
 :::: {.page-section .resources-section}
 ## Resources
 
-### Sources & Citations
-
-<br>
-
-**Books**
+**Print Sources**
 
 Bae, J. (2024). The book of Juju: Africana spirituality for healing, liberation, and self-discovery. Sterling Ethos.
 
@@ -741,23 +761,71 @@ Gomez, M. A. (1998). Exchanging our country marks: The transformation of African
 
 Hamilton, V. (1985). The people could fly: American Black folktales (L. Dillon & D. Dillon, Illus.). Knopf.
 
+Hurston, Z. (1931). Hoodoo in America. Journal of American Folklore, 44(174), 317. https://doi.org/10.2307/535394
+
 Lee, M. E. (2017). Working the roots: Over 400 years of traditional African American healing. Wadastick.
 
 VanDyke, L. (2022). African American herbalism: A practical guide to healing plants and folk traditions. Ulysses Press.
 
+Virginia General Assembly. “An Act Declaring That Baptisme of Slaves Doth Not Exempt Them from Bondage.” September 1667.   In William Waller Hening, ed., The Statutes at Large, vol. 2, p. 260, 1823.
+
 <br>
 
-**Articles**
+**Online Sources**
 
-Hurston, Z. (1931). Hoodoo in America. Journal of American Folklore, 44(174), 317. https://doi.org/10.2307/535394
+Black Herman. (Year, Month Day). In Wikipedia. <https://en.wikipedia.org/wiki/Black_Herman>
+
+Brooks, K. D. (2024). Haints, hollers, and hoodoo. Southern Cultures, 29(4). <https://www.southerncultures.org/article/haints-hollers-and-hoodoo/>
+
+Bullard, E. (2022). Yoruba people. EBSCO Research Starters. <https://www.ebsco.com/research-starters/ethnic-and-cultural-studies/yoruba-people>
+
+Chesapeake Conjure Society. (n.d.). Regional Hoodoo. Hoodoo Society. <https://hoodoosociety.com/regional-hoodoo>
+
+Chireau, Y. (n.d.). What is Hoodoo? Professor Chireau's Academic Hoodoo. <https://academichoodoo.com/>
+
+Gecewicz, C. (2021, February 16). A brief overview of Black religious history in the U.S. Pew Research Center. <https://www.pewresearch.org/religion/2021/02/16/a-brief-overview-of-black-religious-history-in-the-u-s/>
+
+Hall, S. (2019, August 28). Beyond 1619: Slavery and the cultures of America. Library of Congress Blogs: Folklife Today. <https://blogs.loc.gov/folklife/2019/08/beyond-1619/>
+
+Harvard University. (2023, February). The Great Migration. <https://www.harvard.edu/in-focus/the-great-migration/>
+
+McDonald, C. (2018). African musical traditions in American popular music. In Music in Global America. University of Southern California. <https://scalar.usc.edu/works/music-in-global-america/african-musical-traditions-in-american-popular-music>
+
+National Archives and Records Administration. (2021, May 20). The Great Migration (1910–1970). <https://www.archives.gov/research/african-americans/migrations/great-migration>
+
+National Park Service. (2021, November 23). Hoodoo in St. Louis: An African American religious tradition. U.S. Department of the Interior. <https://www.nps.gov/articles/000/hoodoo-in-st-louis-an-african-american-religious-tradition.htm>
+
+Nicole, J. (2026, June 20). Discussion/study guide: Mojo Workin' – Prescript, Ch. 1 & 2. Jay's Divine Readings. <https://jaysdivinereadings.com/2026/06/20/discussion-study-guide-mojo-workin-prescript-ch-1-2/>
+
+Powers, B. E., Jr. (2023, August 23). Ring shouts. South Carolina Encyclopedia. <https://www.scencyclopedia.org/sce/entries/ring-shouts/>
+
+Puckett, N. N. (1926). Folk beliefs of the southern Negro. University of North Carolina Press. <https://archive.org/details/folkbeliefsofsou00puck>
+
+Scott, B. (2022). From the sky to the rivers. The Nature Conservancy. <https://www.nature.org/en-us/about-us/where-we-work/united-states/virginia/stories-in-virginia/sky-rivers-nature-black-america/>
+
+Shawler, C. R. (2024, February 9). Demystifying Hoodoo: Spiritual tradition of resistance teaches ancestral connections. The Oberlin Review. <https://oberlinreview.org/31800/arts/demystifying-hoodoo-spiritual-tradition-of-resistance-teaches-ancestral-connections/>
+
+Whitcomb, L. N. (2022, October 18). Hoodoo heritage month: Conjuring, culture, and community. MadameNoire. <https://madamenoire.com/1325640/hoodoo-heritage-month/>
 
 
 ### Data Credits
 
-- Ancestral Homelands map adapted from Gomez, *Exchanging Our Country Marks* (1998), Figure 1.2.
-- Data visualizations created with [Flourish](https://flourish.studio).
-- Virginia General Assembly. “An Act Declaring That Baptisme of Slaves Doth Not Exempt Them from Bondage.” September 1667.   In William Waller Hening, ed., The Statutes at Large, vol. 2, p. 260, 1823.
+Ancestral Homelands map adapted from Fennell, *Crossroads and cosmologies: Diasporas and ethnogenesis in the New World* (2007), Figure 1.2.
 
+Data visualizations created with [Flourish](https://flourish.studio).
+ 
+SlaveVoyages. (2024). *Trans-Atlantic Slave Trade Database*. <https://www.slavevoyages.org>
+
+::::
+
+<!-- ============================================================ -->
+<!-- Statement of Gratitude                                       -->
+<!-- ============================================================ -->
+
+:::: {.page-section}
+## Statement of Gratitude
+
+Thank you to everyone who has supported the creation of this project — family, dear friends, peers, instructors, practitioners, scholars, and the ancestors that laid the path.
 ::::
 
 ```{=html}
