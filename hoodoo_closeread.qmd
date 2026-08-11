@@ -465,8 +465,7 @@ The <span class="video-link" onclick="document.getElementById('video-modal').sty
 <div id="video-modal" class="video-modal-overlay" onclick="if(event.target===this){this.style.display='none'; this.querySelector('iframe').src=this.querySelector('iframe').src;}">
   <div class="video-modal-content">
     <button class="video-modal-close" onclick="document.getElementById('video-modal').style.display='none'; this.parentElement.querySelector('iframe').src=this.parentElement.querySelector('iframe').src;">×</button>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/skUsJMKwsfE?si=ZRF3XwziScEo3WMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NQgrIcCtys0?si=gVUUtCiBa-O76-Cz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ```
 
