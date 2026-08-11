@@ -367,6 +367,49 @@ h3 {
   height: auto;
   margin: 0 auto 0.5rem;
 }
+
+.video-link {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.video-link:hover {
+  opacity: 0.7;
+}
+.video-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.video-modal-content {
+  position: relative;
+  max-width: 90vw;
+}
+.video-modal-content iframe {
+  width: min(800px, 85vw);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: 8px;
+}
+.video-modal-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+  background: none;
+  border: none;
+  color: var(--paper);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
 </style>
 ```
 
@@ -416,7 +459,16 @@ It isn't considered a religion in an institutional sense, but it is a system of 
 
 That secrecy often meant blending African traditions directly into Christian worship — a process called religious syncretism. The clearest example is the Ring Shout, whose call-and-response shaped early African American worship and survives today in Sanctified, or Holiness-Pentecostal, churches, including the Church of God in Christ (COGIC), the largest historically Black Pentecostal denomination. This worship style, deeply influenced by Hoodoo, is marked by exuberant expressions of faith — singing, dancing, and ecstatic praise — along with practices like feet washing, communion, full immersion baptism, and speaking in tongues.
 
-The Ring Shout's path — from a hidden nighttime ritual to the beating heart of one of the largest Black denominations in America — captures something essential about Hoodoo itself. This is a story not just of survival, but of ingenuity, creativity, and supernatural power — one in which enslaved and free Black communities built a spiritual practice resilient enough to withstand every mechanism designed to destroy it, and vital enough to forge new traditions of healing, resistance, and belonging that still shape Black spiritual life today.
+The <span class="video-link" onclick="document.getElementById('video-modal').style.display='flex'">Ring Shout's</span> path — from a hidden nighttime ritual to the beating heart of one of the largest Black denominations in America — captures something essential about Hoodoo itself. This is a story not just of survival, but of ingenuity, creativity, and supernatural power — one in which enslaved and free Black communities built a spiritual practice resilient enough to withstand every mechanism designed to destroy it, and vital enough to forge new traditions of healing, resistance, and belonging that still shape Black spiritual life today.
+
+```{=html}
+<div id="video-modal" class="video-modal-overlay" onclick="if(event.target===this){this.style.display='none'; this.querySelector('iframe').src=this.querySelector('iframe').src;}">
+  <div class="video-modal-content">
+    <button class="video-modal-close" onclick="document.getElementById('video-modal').style.display='none'; this.parentElement.querySelector('iframe').src=this.parentElement.querySelector('iframe').src;">×</button>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/skUsJMKwsfE?si=ZRF3XwziScEo3WMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+```
 
 ::::
 
@@ -645,7 +697,7 @@ Spiritual control, community regulation, protection from harm, the attraction of
 
 That spiritual practice grew out of belief systems carried forward from African religions. One central concept is that plants, animals, natural places, and objects can hold spiritual presence, power, or agency. This worldview shaped many of the practices that later developed within Hoodoo.
 
-In Yoruba religion, for example, <span class="term" tabindex="0">orishas<span class="tooltip">A divine being or spiritual force in Yoruba religion, believed to guide humanity and govern specific aspects of life and the natural world on behalf of the Supreme Being.</span></span> are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.
+In Yoruba religion, for example, <span class="term" tabindex="0"><em>orishas</em><span class="tooltip">A divine being or spiritual force in Yoruba religion, believed to guide humanity and govern specific aspects of life and the natural world on behalf of the Supreme Being.</span></span> are divine beings or forces created by the Supreme Being to guide humanity and govern different aspects of life and the natural world. Certain orishas are also associated with parts of the body, medicinal herbs, and natural substances used for healing. Hoodoo reflects a similar understanding that herbs and other natural materials possess spiritual power that can be used to diagnose and treat ailments, offer protection, and influence personal or community matters.
 
 Hoodoo's core rituals rarely stand alone — ancestor reverence, water immersion, and prayer weave together into a connected system of practice. Practitioners believed the spoken word held spiritual potency, which is why prayers accompanied the preparation of medicine or the tying of sacred string for healing. Singing and shouting could invoke the ancestors and lead to spirit possession in the sacred <a href="https://en.wikipedia.org/wiki/Ring_shout" class="wiki-link" target="_blank" rel="noopener">Ring Shout</a> or during divination rituals. 
 
@@ -738,12 +790,12 @@ Many other important figures, plants, and specialized roles are part of Hoodoo�
 
 ## Making A Way
 
-Hoodoo survived by moving quietly — through folktales, oral history, and traditions practiced in secret, blending African, Christian, and Indigenous belief into something entirely its own. For many of us, it was <span class="term" tabindex="0">ubiquitous<span class="tooltip">Present or found everywhere — woven into everyday culture so thoroughly that its presence often goes unrecognized.</span></span> long before it had a name: present in a grandmother's remedy, a warning never explained, a habit no one questioned — until an elder or a peer finally gave it language, context, and history.
+Hoodoo survived by moving quietly — through folktales, oral history, and traditions practiced in secret, blending African, Christian, and Indigenous belief into something entirely its own. For many of us, it was <span class="term" tabindex="0"><em>ubiquitous</em><span class="tooltip">Present or found everywhere — woven into everyday culture so thoroughly that its presence often goes unrecognized.</span></span> long before it had a name: present in a grandmother's remedy, a warning never explained, a habit no one questioned — until an elder or a peer finally gave it language, context, and history.
 
 That history is still being written. Hoodoo is being rediscovered online, studied by scholars, and made newly visible — sometimes reverently, sometimes commercially. But its survival was never in anyone else's hands. It belongs to the people who practice it, adapt it, and choose, generation after generation, to carry it forward.
 
-<span class="term" tabindex="0">Sankofa
-  <span class="tooltip">
+<span class="term" tabindex="0"><em>Sankofa
+  </em><span class="tooltip">
     <img src="images/sankofa.png" alt="Sankofa adinkra symbol" class="tooltip-img">
     An Akan concept, often symbolized by a heart or bird looking backward, meaning "go back and get it" — the idea that you must reach into the past to move forward.
   </span>
