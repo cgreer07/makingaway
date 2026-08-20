@@ -753,7 +753,7 @@ Below is a timeline highlighting some of the major factors that contributed to t
 <br>
 
 ```{=html}
-<img src="images/capstone_timeline.png"
+<img src="images/capstone_timeline_2.png"
      alt="The Evolution of Hoodoo: from African traditions to an evolving African American practice"
      class="timeline-img">
 ```
